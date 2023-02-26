@@ -1,2 +1,18 @@
+from car import *
+
+
 if __name__ == "__main__":
     print('Hola Python!')
+
+    car = Car()
+    car.license = 'TRA456'
+    car.driver = 'Martin Fierro'
+    car.passenger = 3
+    print(vars(car))
+
+    car2 = Car()
+    car2.license = 'DWA789'
+    car2.driver = 'Jack Daniels'
+    car2.passenger = 2
+    print(vars(car2))
+    
