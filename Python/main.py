@@ -16,3 +16,9 @@ if __name__ == "__main__":
     car2.passenger = 2
     print(vars(car2))
     
+    car3 = Car()
+    car3.license = 'EYY469'
+    car3.driver = 'Armando Mendoza'
+    car3.passenger = 4
+    print(vars(car3))
+    
